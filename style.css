@@ -4,17 +4,20 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-image: url("./imagem/imagem-fundo.png");
+    z-index: 2;
+    background-color: #EFF3F8;
+}
+
 header{
     background: url(/assets/patternECOStransparente.png), linear-gradient(to bottom right, #295ba7, #78b454);
+    z-index: 1;
     color: white;
     display: flex;
     justify-content: space-between;
     padding: 0 17px;
     align-items: center;
-}
-
-.imagem-fundo{
-    background-repeat: repeat-x;
 }
 
 .logo-image{
@@ -93,8 +96,53 @@ input[type=text] {
     .inicio .input-navbar {
         display: none;
     }
+    /* .logo-image{
+        display: none;
+    } */
+    
 }
 
 @media(min-width) {
     
+}
+
+.imagem-fundo1{
+    position: absolute;
+}
+
+.imagem-fundo2{
+    position: absolute;
+    left: 240px;
+}
+
+.imagem-fundo3{
+    position: absolute;
+    left: 470px;
+}
+
+.imagem-fundo4{
+    position: absolute;
+    left: 695px;
+}
+
+.imagem-fundo5{
+    position: absolute;
+    left: 920px;
+}
+
+.imagem-fundo6{
+    position: absolute;
+    left: 1140px;
+}
+
+
+/* Conteúdo */
+
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #F8F9FA;
+    margin-top: 50px;
+    padding: 30px 10px;
 }
