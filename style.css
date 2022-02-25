@@ -138,11 +138,40 @@ input[type=text] {
 
 /* Conteúdo */
 
-
 .container{
     margin: 0 auto;
     max-width: 1200px;
-    background-color: #F8F9FA;
     margin-top: 50px;
     padding: 30px 10px;
+    display: flex;
+}
+.aniversariante, .processos, .noticias{
+    border-radius: 5px;
+    padding: 20px 15px;
+    margin-left: 30px;
+    background-color: #295ba7;
+}
+.noticias{
+    background-color: #F8F9FA;
+
+}
+.noticias div{
+    background-color: #F8F9FA;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 15px;
+    border-radius: 7px;
+}
+.processos{
+    background-color:#F8F9FA;
+}
+.aniversariante{
+    background-color: #F8F9FA;  
+}
+.aniversariante > div{
+    border-bottom: 1px solid lightgray;
+}
+.coluna{
+    display: flex;
+    flex-direction: column;
 }
