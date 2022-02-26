@@ -161,7 +161,9 @@ input[type=text] {
     box-shadow: 3px 5px 11px -2px rgba(0,0,0,0.09);
     
 }
-
+.noticias{
+    width: 55%;
+}
 
 
 .not-margin{
@@ -172,12 +174,27 @@ input[type=text] {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    flex-wrap: wrap;
+    width: 100%;
+}
+.processos div i{
+    display: flex;
+    justify-content: center;
+}
+.processos div h6{
+    text-align: center;
 }
 
 .processos div {
     background-color: red;
     margin: 3px;
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+    width: 60px;
+    height: 50px;
+    padding: 10px;
+    
 }
 
 .aniversariante{
@@ -190,6 +207,7 @@ input[type=text] {
 
 .coluna{
     margin-left: 15px;
+    max-width: 400px;
 }
 
 img{
