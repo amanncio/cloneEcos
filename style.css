@@ -216,10 +216,19 @@ input[type=text] {
 .processos div i{
     display: flex;
     justify-content: center;
+    color: #33a76f;
 }
 .processos div h6{
     text-align: center;
+    color: #33a76f;
 }
+/* .color-change i:hover {
+    color: white;
+    background-color: linear-gradient(to bottom right, #295ba7, #78b454);
+} */
+/* .color-change h6:hover{
+    color: white;
+} */
 
 .titulo-processos{
     width: 500px;
@@ -237,13 +246,33 @@ input[type=text] {
     -webkit-box-shadow: 0px 2px 6px 3px rgba(0,0,0,0.09); 
     box-shadow: 0px 2px 6px 3px rgba(0,0,0,0.09);;
 }
+.posicao-aniversarios {
+    display: flex;
+    align-items: center;
+}
+.border-top{
+    border-top: 1px solid lightgray;
+}
+.test img{
+    margin-top: 15px;
+}
+.posicao-img{
+    margin-right: 10px;
+    border-radius: 50px;
+    background-color: #295ba7;
+    width: 70px;
+    height: 70px;
+}
 
 .aniversariante{
     background-color: #F8F9FA;  
+    
 }
 
 .aniversariante > div{
     border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+    margin-top: 15px;
 }
 
 .coluna{
