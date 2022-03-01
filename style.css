@@ -152,19 +152,56 @@ input[type=text] {
     background-color: #f8f9fad0;
 }
 
-
-.noticias div{
+.noticias .divs-noticias{
     background-color: #fff;
     display: flex;
     border-radius: 7px;
     -webkit-box-shadow: 3px 5px 11px -2px rgba(0,0,0,0.09); 
     box-shadow: 3px 5px 11px -2px rgba(0,0,0,0.09);
-    
-}
-.noticias{
-    width: 55%;
 }
 
+.texto-noticia{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px 0 15px
+}
+
+.texto-noticia div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.noticias{
+    width: 50%;
+}
+
+.fixar-icones div i {
+    margin-left: 15px;
+}
+
+.cor-icone{
+    color: rgba(255, 0, 0, 0.651);
+}
+
+.cor-icone-cinza{
+    color: grey;
+}
+
+.fixar-icones div small {
+    margin-left: 3px;
+}
+
+.paragrafo1{
+    padding-bottom: 70px;
+}
+
+.paragrafo2{
+    padding-bottom: 70px;
+}
+
+.paragrafo3{
+    padding-bottom: 70px;
+}
 
 .not-margin{
     margin-bottom: 20px;
@@ -172,11 +209,10 @@ input[type=text] {
 .processos{
     background-color:#F8F9FA;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
+    justify-content: flex-start;
 }
+
 .processos div i{
     display: flex;
     justify-content: center;
@@ -185,16 +221,21 @@ input[type=text] {
     text-align: center;
 }
 
+.titulo-processos{
+    width: 500px;
+}
+
 .processos div {
-    background-color: red;
-    margin: 3px;
+    background-color: #fff;
     display: flex;
-    max-width: 300px;
+    margin: 7px;
     flex-direction: column;
     width: 60px;
     height: 50px;
-    padding: 10px;
-    
+    padding: 15px 24px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 2px 6px 3px rgba(0,0,0,0.09); 
+    box-shadow: 0px 2px 6px 3px rgba(0,0,0,0.09);;
 }
 
 .aniversariante{
@@ -212,4 +253,11 @@ input[type=text] {
 
 img{
     border-radius: 5px 0 0 5px;
+}
+
+
+/* RESPOSIVIDADE */
+
+@media(max-width: 1211px){
+    
 }
