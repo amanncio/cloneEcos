@@ -46,7 +46,6 @@ input::placeholder{
     padding-left: 10px;
 }
 
-
 input:focus {
     border: 1px solid rgb(120, 180, 85);
     outline: none;
@@ -71,10 +70,6 @@ input[type=text] {
     cursor: pointer;
 }
 
-.primeira-esquerda{
-    
-}
-
 .user {
     display: flex;
     align-items: center;
@@ -91,20 +86,6 @@ input[type=text] {
 .search{
     position: absolute;
     left: 620px;
-}
-
-@media(max-width: 854px){
-    .inicio .input-navbar {
-        display: none;
-    }
-    /* .logo-image{
-        display: none;
-    } */
-    
-}
-
-@media(min-width) {
-    
 }
 
 .imagem-fundo1{
@@ -222,13 +203,6 @@ input[type=text] {
     text-align: center;
     color: #33a76f;
 }
-/* .color-change i:hover {
-    color: white;
-    background-color: linear-gradient(to bottom right, #295ba7, #78b454);
-} */
-/* .color-change h6:hover{
-    color: white;
-} */
 
 .titulo-processos{
     width: 500px;
@@ -287,6 +261,28 @@ img{
 
 /* RESPOSIVIDADE */
 
-@media(max-width: 1211px){
+@media(max-width: 900px){
+    .container{
+        padding: 30px 10px;
+        display: block;
+        margin: 0 40px;
+    }
+    .noticias{
+        width: 96%;
+    }
+
+    .coluna{
+        margin: 0;
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 854px){
+    .inicio .input-navbar {
+        display: none;
+    }
+    /* .logo-image{
+        display: none;
+    } */
     
 }
